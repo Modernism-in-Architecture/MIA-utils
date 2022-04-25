@@ -23,6 +23,7 @@ def error(message):
 def readToken(tokenFileName="token.txt"):
     if not os.path.exists(tokenFileName):
         error(f"Token file {tokenFileName} does not exist")
+        assert False
     with open(tokenFileName, "r") as tokenFile:
         return tokenFile.readline().strip()
 
