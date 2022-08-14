@@ -131,4 +131,6 @@ dmypy.json
 *.code-workspace
 .vscode
 
+.DS_Store
+
 building-trigger/token.txt
